@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jikoapp</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+   <header>
+    <div class="horizontalFlowing">
+     <div class="horizontalFlowing_content -loop-right-to-left">
+     <div class="horizontalFlowing_content-txt">＃社会性</div>
+     <div class="horizontalFlowing_content-txt">＃登山</div>
+     <div class="horizontalFlowing_content-txt">＃縁の下の力持ち</div>
+     <div class="horizontalFlowing_content-txt">＃協調性</div>
+     <div class="horizontalFlowing_content-txt">＃ダンス</div>
+     <div class="horizontalFlowing_content-txt">＃音楽</div>
+     <div class="horizontalFlowing_content-txt">＃ドラマ</div>
+     <div class="horizontalFlowing_content-txt">＃学び続ける</div>
+     <div class="horizontalFlowing_content-txt">＃友達</div>
+    </div>
+    <div class="horizontalFlowing_content -loop-right-to-left">
+     <div class="horizontalFlowing_content-txt">＃社会性</div>
+     <div class="horizontalFlowing_content-txt">＃登山</div>
+     <div class="horizontalFlowing_content-txt">＃縁の下の力持ち</div>
+     <div class="horizontalFlowing_content-txt">＃協調性</div>
+     <div class="horizontalFlowing_content-txt">＃ダンス</div>
+     <div class="horizontalFlowing_content-txt">＃音楽</div>
+     <div class="horizontalFlowing_content-txt">＃ドラマ</div>
+     <div class="horizontalFlowing_content-txt">＃学び続ける</div>
+     <div class="horizontalFlowing_content-txt">＃友達</div>
+    </div>
+   </header>
+   <main>
+    <%= yield %>
+   </main>    
+  </body>
+</html>
