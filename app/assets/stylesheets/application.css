@@ -13,7 +13,10 @@
  *= require_tree .
  *= require_self
  */
-
+ * {
+  margin: 0;
+  padding: 0;
+}
  
  .horizontalFlowing {
     padding: 15px 0;
@@ -46,3 +49,14 @@
       transform: translateX(-100%);
     }
   }
+
+  video {
+    position: absolute;
+    top: 54px;
+    left: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+
+ 
