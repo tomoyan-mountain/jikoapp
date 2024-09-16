@@ -55,6 +55,12 @@
    </header>
    <main>
     <%= yield %>
-   </main>    
+   </main> 
+   <script>
+    window.onload = function () {
+    const spinner = document.getElementById('loading');
+    spinner.classList.add('loaded');  
+}   
+   </script>
   </body>
 </html>
